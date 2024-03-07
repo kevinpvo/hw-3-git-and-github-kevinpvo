@@ -18,3 +18,14 @@ Commit 0: Initial Commit
 > git checkout bug-fix-experimental
 > git push -u origin bug-fix-experimental
 ```
+
+- Commit 7: Edit README [branch: experimental-bug-fix]
+```
+> git checkout 64a63cd87174d3f0fde2aac3ad17667820b7f893
+> git branch experimental-bug-fix
+> git checkout experimental-bug-fix
+> git push -u origin experimental-bug-fix
+> git add README.md
+> git commit -m "Commit 7: Edit README [branch: experimental-bug-fix]"
+> git push -u origin experimental-bug-fix
+```
