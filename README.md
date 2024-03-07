@@ -84,12 +84,18 @@ Team Members: Kevin Vo (I worked on this assignment by myself)\
 > git commit -m "Commit 9: Update README.md [branch: experimental-bug-fix]"
 > git push -u origin experimental-bug-fix
 ```
-- Commit 11: Merge branch 'bug-fix-experimental' into bug-fix
+- Commit 11: Merge branch experimental-bug-fix into bug-fix [branch: bug-fix]
 ```
 > git checkout bug-fix
 > git merge experimental-bug-fix
 **resolved merge conflicts**
 > git add README.md
-> git commit -m "Commit 11: Merge branch 'experimental-bug-fix' into bug-fix"
+> git commit -m "Commit 11: Merge branch experimental-bug-fix into bug-fix [branch: bug-fix]"
+> git push -u origin bug-fix
+```
+- Commit 12: Update README.md [branch: bug-fix]
+```
+> git add README.md
+> git commit -m "Commit 12: Update README.md [branch: bug-fix]"
 > git push -u origin bug-fix
 ```
