@@ -29,9 +29,15 @@ Commit 0: Initial Commit
 > git commit -m "Commit 7: Edit README [branch: experimental-bug-fix]"
 > git push -u origin experimental-bug-fix
 ```
-- Commit 8: Update README.md [branch: bug-fix-experimental]
+- Commit 8: Update README.md [branch: experimental-bug-fix]
 ```
 > git add README.md
-> git commit -m "Commit 8: Update README.md [branch: bug-fix-experimental]"
-> git push -u origin bug-fix-experimental
+> git commit -m "Commit 8: Update README.md [branch: experimental-bug-fix]"
+> git push -u origin experimental-bug-fix
+```
+- Commit 9: Update README.md [branch: experimental-bug-fix]
+```
+> git add README.md
+> git commit -m "Commit 9: Update README.md [branch: experimental-bug-fix]"
+> git push -u origin experimental-bug-fix
 ```
