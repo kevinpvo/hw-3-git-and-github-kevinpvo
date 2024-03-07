@@ -38,12 +38,11 @@ Team Members: Kevin Vo (I worked on this assignment by myself)\
 > git commit -m "Commit 3: Edit README.md [branch: bug-fix]"
 > git push -u origin bug-fix
 ```
-- Commit 4: Update README.md [branch bug-fix]
+- Commit 4: Update README.md [branch: bug-fix]
 ```
 > git add README.md
 > git commit -m "Commit 4: Update README.md [branch: bug-fix]"
 > git push -u origin bug-fix
-
 ```
 - Commit 5: Merge main into bug-fix [branch: bug-fix]
 ```
@@ -51,5 +50,11 @@ Team Members: Kevin Vo (I worked on this assignment by myself)\
 **resolved merge conflicts**
 > git add README.md
 > git commit -m "Commit 5: merge main into bug-fix [branch: bug-fix]"
+> git push -u origin bug-fix
+```
+- Commit 6: Update README.md [branch: bug-fix]
+```
+> git add README.md
+> git commit -m "Commit 6: Update README.md [branch: bug-fix]"
 > git push -u origin bug-fix
 ```
