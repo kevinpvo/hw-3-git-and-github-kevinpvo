@@ -28,3 +28,10 @@ Team Members: Kevin Vo (I worked on this assignment by myself)\
 ❯ git commit -m "Commit 2: edit README.md"
 ❯ git push -u origin main
 ```
+- Commit 10: Update README.md [on branch main]
+```
+> git checkout main
+> git add README.md
+> git commit -m "Commit 10: Update README.md [on branch main]"
+> git push -u origin main
+```
